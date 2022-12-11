@@ -1,0 +1,186 @@
+﻿*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.input {
+    display: inline-block;
+    height: 30px;
+    width: 10%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color:#ffffff;
+}
+.button {
+    margin-top: 50px;
+    width: 10%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button2 {
+    margin-top: 0px;
+    margin-bottom:100%;
+    width: 10%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button3 {
+    margin-top: 0px;
+    margin-left:90px;
+    width: 10%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ffd800;
+    color: #080710;
+}
+.button2:hover {
+    background-color: #ffd800;
+    color: #080710;
+}
+.button3:hover {
+    background-color: #ffd800;
+    color: #080710;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.grid{
+    float: right;
+}
+
+.mydropdownlist1 {
+    color: #080710;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px 12px;
+    margin-left:80px;
+    background-color: #e5dcdc;
+}
+
+.centrado{
+            margin-right: auto;
+            margin-left: auto;
+            width: 161px;
+            height: 136px;
+            display: block;
+      }
+.auto-style6 {
+    color: #FFFF00;
+    text-align: center;
+    display: block;
+    
+}
+
+.contenido {
+    background-size: 100% 100%;
+    background-image: url('../images/gym-structure-1080x675.png');
+    width:100%;
+    height:100%;
+}
+
+.placeholder {
+    width: 100%;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background: rgba(64,64,64, 0.5);
+    background-size: contain;
+    background-image: url('../images/gym.jpg');
+}
+
+.auto-style4 {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
+
+div .contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:60px;
+    background-color: #808080;
+    width: 950px;
+    height: 200px;
+    display: block;
+    border-radius: 5px 5px;
+}
+
+div .contenedor2 {
+    border-radius:5px 5px;
+    background-color: #808080;
+    width: 900px;
+    height: 390px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div .contenedor3 {
+    border-radius: 5px 5px;
+    background-color: rgba(255,255,255,0.07);
+    width: 930px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+div .contenedor4 {
+    border-radius: 5px 5px;
+    background-color: rgba(255,255,255,0.07);
+    width: 970px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.input2 {
+    display: inline-block;
+    height: 30px;
+    width: 20%;
+    background-color: #e5dcdc;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.input3 {
+    display: inline-block;
+    height: 25px;
+    width: 60%;
+    background-color: #e5dcdc;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+}

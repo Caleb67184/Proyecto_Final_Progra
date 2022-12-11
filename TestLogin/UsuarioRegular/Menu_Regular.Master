@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu_Regular.Master.cs" Inherits="TestLogin.Home_Regular" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../CSS/Menu.css" rel="stylesheet" />
+
+    <title></title>
+    
+    <p>
+    <a href="Home_Regular.aspx"><img src="../Images/logo.png" class="image2" /></a>
+</p>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+                <li><a class="hola" href="Home_Regular.aspx">Inicio</a></li>
+                <li><a class="hola" href="Profile_Regular.aspx">Perfil</a></li>
+                <li style="float:right"><a href="../index.aspx">Salir</a></li>
+                
+            </ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="TestLogin.Menu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="CSS/Menu.css" rel="stylesheet" />
+
+    <title></title>
+    
+&nbsp;<p>
+    <a href="Home.aspx"><img class="image2" src="Images/logo.png" /><br /></a>
+    </p>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+                <li><a href="Home.aspx">Inicio</a></li>
+                <li style="float:right"><a href="index.aspx">Salir</a></li>
+                <li class="dropdown" id="dp">
+                    <a href="javascript:void(0)" class="dropbtn">Catálogos</a>
+                   <div class="dropdown-content">
+                    <a href="Clientes.aspx">Clientes</a>
+                    <a href="Facturacion.aspx">Facturación</a>
+                    <a href="Productos.aspx">Productos</a>
+                    <a href="Rutinas.aspx">Rutinas</a>
+                    <a href="Provincia.aspx">Provincia</a>
+                    <a href="Canton.aspx">Cantón</a>
+                    <a href="Distrito.aspx">Distrito</a>
+                   </div>
+                </li>
+            </ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
